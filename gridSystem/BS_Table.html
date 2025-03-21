@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BS Buttons</title>
+
+	<style type="text/css">
+
+		@media only screen and (min-width: 768px)
+		{
+			.dropdown:hover .dropdown-menu
+		{
+			display: block;
+		}
+
+		}
+		body
+			{
+				display: flex;
+				flex-direction: column;
+				min-height: 100vh;	
+			}
+
+			.content
+			{
+				flex: 1;
+			}
+		
+	</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body style="background: url('images/solid.png'); height: 100%; background-size: cover;">
+
+	
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="images/logo.png"  height="30px" width="30px"></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Web Design</a>
+          <a class="dropdown-item" href="#">Web Developm</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Oracle Cloud Computing</a>
+          <a class="dropdown-item" href="#">Software Development using C#.Net</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Contact</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link disabled">Buy Plan</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container content">
+	<h1 class="display-4 text-center my-4"> Bootstrap Tables</h1>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+
+	<table class="table table-dark">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+
+	<table class="table">
+		<thead class="table-warning">
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+
+		<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+
+	<table class="table table-bordered table-hover">
+		<thead class="table-warning">
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+
+		<table class="table table-sm table-striped">
+		<thead class="table-warning">
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>Jhon</td>
+				<td>Smith</td>
+				<td>jhonsmith@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">2</th>
+				<td>John</td>
+				<td>Doe</td>
+				<td>Johndoe@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">3</th>
+				<td>Shanon</td>
+				<td>Williums</td>
+				<td>shanon@gmail.com</td>
+			</tr>
+
+			<tr>
+				<th scope="row">4</th>
+				<td>Will</td>
+				<td>Smith</td>
+				<td>willsmith@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<footer class="bg-dark text-light text-center py-3">
+	&copy; cogent | All Rights Reserved
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
